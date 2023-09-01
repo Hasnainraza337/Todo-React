@@ -1,0 +1,104 @@
+ @import "./scss/bootstrap";
+ @import "./scss/auth";
+ @import "./scss/screenLoader";
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+
+ * {
+     font-family: 'Josefin Sans', sans-serif;
+ }
+
+
+
+ #root {
+     width: 100%;
+     min-height: 100vh;
+     background-color: #cad6c6;
+     display: flex;
+     //  flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .container {
+     width: 82%;
+     padding: 0;
+     border-radius: 5px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+ }
+
+ .sider-top {
+     display: flex;
+     align-items: center;
+     //   padding: 20px 15px;
+     padding-left: 10px;
+ }
+
+ .menu {
+     display: flex;
+     align-items: center;
+     font-size: 27px;
+     margin-top: 5px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .sider-bars {
+     display: flex;
+     //  font-size: 30px;
+     margin-left: 60px;
+ }
+
+
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ #sider-scroll::-webkit-scrollbar {
+     display: none;
+ }
+
+ /* Hide scrollbar for IE, Edge and Firefox */
+ #sider-scroll {
+     -ms-overflow-style: none;
+     /* IE and Edge */
+     scrollbar-width: none;
+     /* Firefox */
+
+
+ }
+
+ 
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ #ContentTodos::-webkit-scrollbar {
+     display: none;
+ }
+
+ /* Hide scrollbar for IE, Edge and Firefox */
+ #ContentTodos {
+     -ms-overflow-style: none;
+     /* IE and Edge */
+     scrollbar-width: none;
+     /* Firefox */
+
+
+ }
+
+ .dropdownKebab {
+     position: absolute;
+     top: 5px;
+     right: 0;
+     cursor: pointer;
+
+
+ }
+
+ .select-date {
+     width: 50%;
+ }
+
+ @media only screen and (max-width: 768px) {
+     .select-date {
+         width: 100%;
+     }
+ }
